@@ -1,0 +1,14 @@
+2020-09-07 20:48:00,451 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Starting PrimeiroJobSpringBatchApplication on jefferson-81s9 with PID 1133205 (/home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/PrimeiroJobSpringBatch/target/classes started by jefferson in /home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/PrimeiroJobSpringBatch)
+2020-09-07 20:48:00,455 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] No active profile set, falling back to default profiles: default
+2020-09-07 20:48:01,157 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-07 20:48:01,490 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-07 20:48:01,539 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-07 20:48:01,592 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-07 20:48:01,687 INFO c.u.p.PrimeiroJobSpringBatchApplication [main] Started PrimeiroJobSpringBatchApplication in 1.984 seconds (JVM running for 3.115)
+2020-09-07 20:48:01,689 INFO o.s.b.a.b.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-09-07 20:48:01,798 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=17, nome=Jefferson}]
+2020-09-07 20:48:01,861 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2020-09-07 20:48:01,895 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 34ms
+2020-09-07 20:48:01,909 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=17, nome=Jefferson}] and the following status: [COMPLETED] in 81ms
+2020-09-07 20:48:01,913 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-07 20:48:01,920 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
