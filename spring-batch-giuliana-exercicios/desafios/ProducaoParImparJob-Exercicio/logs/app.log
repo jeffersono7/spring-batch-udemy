@@ -1,0 +1,60 @@
+2020-09-07 21:16:42,613 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on jefferson-81s9 with PID 1139247 (/home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio/target/classes started by jefferson in /home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio)
+2020-09-07 21:16:42,616 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2020-09-07 21:16:42,950 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-07 21:16:43,129 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-07 21:16:43,389 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-07 21:16:43,429 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-07 21:16:43,469 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-07 21:16:43,528 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.432 seconds (JVM running for 2.268)
+2020-09-07 21:16:43,529 INFO o.s.b.a.b.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-09-07 21:16:43,586 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=16}]
+2020-09-07 21:16:43,626 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2020-09-07 21:16:43,705 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 79ms
+2020-09-07 21:16:43,717 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=16}] and the following status: [COMPLETED] in 110ms
+2020-09-07 21:16:43,721 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-07 21:16:43,729 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-07 21:17:30,582 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on jefferson-81s9 with PID 1139464 (/home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio/target/classes started by jefferson in /home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio)
+2020-09-07 21:17:30,584 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2020-09-07 21:17:30,889 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-07 21:17:31,059 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-07 21:17:31,320 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-07 21:17:31,360 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-07 21:17:31,399 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-07 21:17:31,459 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.383 seconds (JVM running for 2.171)
+2020-09-07 21:17:31,460 INFO o.s.b.a.b.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-09-07 21:17:31,522 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=17}]
+2020-09-07 21:17:31,556 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2020-09-07 21:17:31,623 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 67ms
+2020-09-07 21:17:31,634 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=17}] and the following status: [COMPLETED] in 94ms
+2020-09-07 21:17:31,637 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-07 21:17:31,644 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-07 21:19:28,423 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on jefferson-81s9 with PID 1139962 (/home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio/target/classes started by jefferson in /home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio)
+2020-09-07 21:19:28,426 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2020-09-07 21:19:28,732 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-07 21:19:28,883 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-07 21:19:29,115 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-07 21:19:29,152 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-07 21:19:29,189 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-07 21:19:29,248 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.238 seconds (JVM running for 1.809)
+2020-09-07 21:19:29,248 INFO o.s.b.a.b.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-09-07 21:19:29,299 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=18}]
+2020-09-07 21:19:29,330 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2020-09-07 21:19:29,399 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 68ms
+2020-09-07 21:19:29,420 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=18}] and the following status: [COMPLETED] in 98ms
+2020-09-07 21:19:29,428 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-07 21:19:29,438 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
+2020-09-07 21:22:06,513 INFO c.u.p.ProducaoParImparJobApplication [main] Starting ProducaoParImparJobApplication on jefferson-81s9 with PID 1140376 (/home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio/target/classes started by jefferson in /home/jefferson/Documentos/cursos/udemy/spring-batch-giuliana/spring-batch-giuliana-exercicios/desafios/ProducaoParImparJob-Exercicio)
+2020-09-07 21:22:06,516 INFO c.u.p.ProducaoParImparJobApplication [main] No active profile set, falling back to default profiles: default
+2020-09-07 21:22:06,899 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2020-09-07 21:22:07,098 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2020-09-07 21:22:07,327 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-09-07 21:22:07,364 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2020-09-07 21:22:07,401 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2020-09-07 21:22:07,453 INFO c.u.p.ProducaoParImparJobApplication [main] Started ProducaoParImparJobApplication in 1.368 seconds (JVM running for 1.959)
+2020-09-07 21:22:07,453 INFO o.s.b.a.b.JobLauncherCommandLineRunner [main] Running default command line with: []
+2020-09-07 21:22:07,506 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] launched with the following parameters: [{run.id=19}]
+2020-09-07 21:22:07,535 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeParImparStep]
+2020-09-07 21:22:07,601 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeParImparStep] executed in 65ms
+2020-09-07 21:22:07,616 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeParImparJob]] completed with the following parameters: [{run.id=19}] and the following status: [COMPLETED] in 94ms
+2020-09-07 21:22:07,619 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-09-07 21:22:07,625 INFO c.z.h.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
